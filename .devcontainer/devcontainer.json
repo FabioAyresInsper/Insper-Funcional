@@ -5,8 +5,7 @@
 		"vscode": {		
 			"extensions": [
 				"Ionide.Ionide-fsharp",
-				"ms-dotnettools.csharp",
-				"marp-team.marp-vscode"
+				"ms-dotnettools.csharp"
 			]
 		}
 	}
