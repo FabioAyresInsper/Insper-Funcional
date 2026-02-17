@@ -1,0 +1,18 @@
+{
+    "markdown.marp.themes": [
+        "./marp/insper-theme.css"
+    ],
+    "markdown.marp.exportAutoOpen": false,
+    "markdownlint.config": {
+        "single-h1": false,
+        "no-duplicate-heading": false,
+        "blanks-around-headings": false,
+        "no-trailing-punctuation": false,
+        "blanks-around-lists": false,
+        "hr-style": false
+    },
+    "FSharp.inlayHints.typeAnnotations": false,
+    "FSharp.lineLens.enabled": "never",
+    "FSharp.codeLenses.references.enabled": false,
+    "FSharp.codeLenses.signature.enabled": false
+}

@@ -1,13 +1,13 @@
 {
-    "name": "Haskell DevContainer",
-    "image": "fjayres/haskell:latest",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "haskell.haskell"
-            ]
-        }
-    },
-    "forwardPorts": [],
-    "remoteUser": "insper"
+	"name": "F# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:9.0",
+	"customizations": {
+		"vscode": {		
+			"extensions": [
+				"Ionide.Ionide-fsharp",
+				"ms-dotnettools.csharp",
+				"marp-team.marp-vscode"
+			]
+		}
+	}
 }
