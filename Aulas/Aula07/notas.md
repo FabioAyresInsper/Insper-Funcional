@@ -27,5 +27,17 @@ dotnet solution add Greet.Tests
 ## Adicionando o projeto Greet como dependencia do projeto Greet.Tests
 
 ```bash
+cd Greet.Tests
 dotnet add reference ../Greet
+cd ..
+```
+
+## Criando um projeto de programa executável com dependência de Greet
+
+```
+dotnet new console --language F# -o Main
+cd Main
+dotnet add reference ../Greet
+cd ..
+dotnet solution add Main
 ```
