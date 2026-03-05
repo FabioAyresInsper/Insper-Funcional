@@ -23,3 +23,9 @@ dotnet solution add Greet
 dotnet new xunit --language F# -o Greet.Tests
 dotnet solution add Greet.Tests
 ```
+
+## Adicionando o projeto Greet como dependencia do projeto Greet.Tests
+
+```bash
+dotnet add reference ../Greet
+```
